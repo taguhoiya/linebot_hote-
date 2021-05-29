@@ -60,8 +60,9 @@ gem 'dotenv-rails'
 
 gem 'httpclient'
 
-gem 'sqlite3', '~> 1.4', group: :development
+gem 'sqlite3', group: :development
 
+gem 'pg', group: :production  
 
 group :production do
   gem 'unicorn'
