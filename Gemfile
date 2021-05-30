@@ -67,3 +67,5 @@ gem 'pg', group: :production
 group :production do
   gem 'unicorn'
 end
+
+gem 'uglifier'
